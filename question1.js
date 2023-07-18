@@ -6,12 +6,17 @@ const func = () =>{
     if(age>18){
         alert("you can drive");
     }
+    else if(age < 5){
+        console.error("age can't be less then 5");
+        forWhile = false;
+    }
     else{
         alert("you can't drive just go home");
     }    
 }
-func();
 let forWhile = true;
+func();
+
 while(forWhile){
     let b = confirm("do you want to give the answer again?");
     if(b){
@@ -21,6 +26,5 @@ while(forWhile){
         forWhile = b;
     }
 }
-
 
 // to see the o/p just run this code in console.
