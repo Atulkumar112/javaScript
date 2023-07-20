@@ -1,4 +1,5 @@
-let val = 69;
+//just  run this code in the console of develoepr tool and this is really good game :)
+let val = Math.floor(Math.random() * 100);
 let num = prompt("Guesss the number:- ");
 let b = true;
 
